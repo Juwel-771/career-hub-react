@@ -2,7 +2,8 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <footer className="flex justify-around footer bg-base-200 text-base-content p-10">
+    <footer className="bg-base-200 text-base-content p-10">
+      <div className="footer flex justify-between py-8 max-w-5xl mx-auto">
       <aside>
         <svg
           width="50"
@@ -41,6 +42,7 @@ const Footer = () => {
         <a className="link link-hover">Privacy policy</a>
         <a className="link link-hover">Cookie policy</a>
       </nav>
+      </div>
     </footer>
   );
 };
