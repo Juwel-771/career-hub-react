@@ -1,6 +1,7 @@
 import React from "react";
 import { IoLocationOutline } from "react-icons/io5";
 import { AiOutlineDollar } from "react-icons/ai";
+import { Link } from "react-router-dom";
 
 
 const Job = ({ job }) => {
@@ -20,7 +21,9 @@ const Job = ({ job }) => {
         <p className="flex items-center"> <span className="mr-2"> <AiOutlineDollar/> </span> Salary: {salary} </p>
     </div>
     <div className="card-actions">
-      <button className="btn btn-primary">View Details</button>
+      <Link to={`/job/${id}`}>
+          <button className="btn btn-primary">View Details</button>
+      </Link>
     </div>
     
   </div>
