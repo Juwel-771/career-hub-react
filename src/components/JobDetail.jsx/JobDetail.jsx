@@ -12,7 +12,7 @@ const JobDetail = () => {
     console.log(job);
 
     const handleApplyJob = () => {
-        saveJobApplication(id);
+        saveJobApplication(jobInt);
         toast("Job applied");
     }
     return (
