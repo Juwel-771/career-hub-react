@@ -33,7 +33,7 @@ const FeaturedJob = () => {
       >
         <button
           onClick={() => setDataLength(jobs.length)}
-          className="btn btn-primary"
+          className="btn btn-primary my-16"
         >
           Show All Jobs
         </button>
