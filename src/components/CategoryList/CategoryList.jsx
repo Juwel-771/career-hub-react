@@ -10,7 +10,7 @@ const CategoryList = () => {
         <h2 className="text-3xl text-center font-semibold">
           Job Category List
         </h2>
-        <p className="text-center mt-3">
+        <p className="text-center mt-3 text-slate-500">
           Explore thousands of job opportunities with all the information you
           need. Its your future
         </p>
