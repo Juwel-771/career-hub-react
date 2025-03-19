@@ -3,7 +3,7 @@ import userImage from "../../assets/images/user.png";
 
 const Banner = () => {
   return (
-    <div className="p-5">
+    <div className="p-5 bg-slate-400">
       <div className="flex justify-evenly items-center">
         <div className="">
           <div className="text-5xl font-semibold mb-5">
